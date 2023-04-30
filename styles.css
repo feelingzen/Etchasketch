@@ -1,0 +1,68 @@
+* {
+    font-family: poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+
+body {
+   background-image: url(background.gif);
+   background-position: 50% 30%;
+}
+
+.everything {
+    animation: fadeIn 5s;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(252, 255, 104);
+    font-size: 60px;
+    font-weight: 800;
+    text-shadow: rgb(252, 255, 104) 0px 3px 8px;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(252, 255, 104);
+    text-shadow: rgb(252, 255, 104) 0px 3px 8px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex: initial;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex: initial;
+    width: 500px; 
+    height: 500px;
+    flex-wrap: wrap;
+    margin: 40px;
+    box-shadow: rgb(252, 255, 104) 0px 3px 30px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.box {
+    flex-grow: 1;
+    transition: 1s;
+}
